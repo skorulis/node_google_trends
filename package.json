@@ -1,0 +1,16 @@
+{
+  "name": "google_trends",
+  "version": "1.0.0",
+  "description": "API for accessing google trends data",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Skorulis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-trends-api": "^4.9.0"
+  }
+}
